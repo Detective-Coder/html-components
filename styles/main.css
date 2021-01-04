@@ -1,0 +1,36 @@
+.interest {
+  flex-basis: 16%;  /* Make each child element the same width */
+  border: 1px dotted crimson;
+  padding: 1em;
+  margin: 0.5em;
+  text-align: center; /* Center align the text in the boxes */
+}
+
+.bio__interests {
+  display: flex;  /* Display the child items in a Flex layout */
+  flex-wrap: wrap;  /* Let the rows wrap if there are too many */
+  justify-content: space-evenly; /* Evenly space the child elements */
+}
+
+.pageHeader {
+  margin: 1em auto;
+  width: 25%;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.shop {
+  flex-basis: 30%;
+  border: 1px dotted;
+  padding: .2em;
+}
+
+.pageHeader,
+.list {
+  font-weight: bold;
+  font-size: 1.2em;
+}
